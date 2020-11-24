@@ -62,7 +62,7 @@ The below images show some examples of which you will be getting if the code wor
 
 * [**Accuracy result**](https://i.imgur.com/oF0SV9k.png)
 
-* [**Detection result**](https://i.imgur.com/U7OOBd8.png)
+* [**Single detection result**](https://i.imgur.com/SJIQkrn.png)
 
 * [**Multiple detection results**](https://i.imgur.com/WrAOb4N.png)
 
