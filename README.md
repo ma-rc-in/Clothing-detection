@@ -1,7 +1,6 @@
 # About the project
 
 This project was created as part of a college assignment. 
-The model is able to train itself so that it can produce better detection results. 
 
 ## Getting Started
 
