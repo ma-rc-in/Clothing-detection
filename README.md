@@ -79,5 +79,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-*  [**Year 2 Computing Lecturer :)**]
+*  **Year 2 Computing Lecturer :)**
+*  [**Tensorflow**](https://www.tensorflow.org/)
 *  [**Keras data**](https://github.com/marcin9898)
