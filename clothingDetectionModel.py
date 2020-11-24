@@ -17,10 +17,9 @@ fashion_mnist = keras.datasets.fashion_mnist
 #creating names for labels
 class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 
-#The code below is used to look into the first image of the
-#dataset to test if the program returns the image with pixel values
+#The below commented code is for TESTING purposes. It helps to check whether you are getting an image from the dataset.
 # plt.figure()
-# plt.imshow(train_images) ##you can look up a particular image of the dataset by searching for its index using plt.imshow(train_images[5]), which in this case the code will return the sixth image within the dataset, which is a pullover.   
+# plt.imshow(train_images) ##you can look up a particular image of the dataset by searching for its index using [value], e.g. plt.imshow(train_images[5]), which in this case the code will return the sixth image within the dataset, which is a pullover.   
 # plt.colorbar()
 # plt.grid(False)
 # plt.show()
