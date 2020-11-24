@@ -8,7 +8,7 @@ from tensorflow import keras
 import matplotlib.pyplot as plt
 import numpy as np
 
-#defining the datasets used in my neural network
+#defining the datasets
 fashion_mnist = keras.datasets.fashion_mnist
 
 #arrays derived from the dataset
@@ -20,7 +20,7 @@ class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 
 #The code below is used to look into the first image of the
 #dataset to test if the program returns the image with pixel values
 # plt.figure()
-# plt.imshow(train_images)
+# plt.imshow(train_images) ##you can look up a particular image of the dataset by searching for its index using plt.imshow(train_images[5]), which in this case the code will return the sixth image within the dataset, which is a pullover.   
 # plt.colorbar()
 # plt.grid(False)
 # plt.show()
