@@ -1,10 +1,8 @@
 from __future__ import absolute_import, division, print_function
 
-#importing libraries used in neural networks
 import tensorflow as tf
 from tensorflow import keras
 
-#importing Python's libraries
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -62,11 +60,11 @@ predictions = model.predict(test_images)
 
 print(predictions[2])#indicates the number of image to test
 
-#prining out the text to indicate the gategory  of a prediction
+#prining out the text to indicate the category  of a prediction
 print("The predicted category is: " + str(np.argmax(predictions[2])) + ", which is: " + class_names[
     int(np.argmax(predictions[2]))])
 
-#prining out the text to indicate the category of the correct category
+#printing out the text to indicate the correct category
 print("The correct category is: " + str(test_labels[2]) + ", which is: " + class_names[int(np.argmax(predictions[2]))])
 
 def plot_image(i, predictions_array, true_label, img):
@@ -106,21 +104,6 @@ plt.subplot(1,2,2)
 plot_value_array(i, predictions, test_labels)
 plt.show()
 
-
-#the code used to indidate the number of an image to check
-def select_image(predictions, test_labels, test_images):
-    i = input("Which index would you like to check? (0 - 10000)")
-    plt.figure(figsize=(6,3))
-    plt.subplot(1,2,1)
-    plot_image(int(i), predictions, test_labels, test_images)
-    plt.subplot(1,2,2)
-    plot_value_array(int(i), predictions, test_labels)
-    plt.show()
-    select_image(predictions, test_labels, test_images)
-
-#singleline display of the checked graphs
-#select_image(predictions, test_labels, test_images)
-
 def multi_plot(predictions, test_labels, test_image):
     num_rows = int(input("How many rows would you like?"))
     num_cols = int(input("How many columns would you like?"))
@@ -135,4 +118,18 @@ def multi_plot(predictions, test_labels, test_image):
 
 #multiline display of the checked graphs
 multi_plot(predictions, test_labels, test_images)
+
+#indicating which image needs to be checked
+def select_image(predictions, test_labels, test_images):
+    i = input("Which index would you like to check? (0 - 10000)")
+    plt.figure(figsize=(6,3))
+    plt.subplot(1,2,1)
+    plot_image(int(i), predictions, test_labels, test_images)
+    plt.subplot(1,2,2)
+    plot_value_array(int(i), predictions, test_labels)
+    plt.show()
+    select_image(predictions, test_labels, test_images)
+
+#singleline display of the checked graphs
+select_image(predictions, test_labels, test_images)
 
