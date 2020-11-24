@@ -70,7 +70,6 @@ The below images show some examples of which you will be getting if the code wor
 ## Built With
 
 * [PyCharm professional](https://www.jetbrains.com/pycharm/download/) - The IDE for graph plotting. 
-* [Keras API](https://keras.io/api/datasets/fashion_mnist/) - Fashion MNIST dataset used to generate image samples. 
 
 ## License
 
@@ -80,4 +79,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 *  **HND Year 2 computing lecturer :)**
 *  [**Tensorflow**](https://www.tensorflow.org/)
-*  [**Keras data**](https://github.com/marcin9898)
+*  [**Keras API**](https://keras.io/)
