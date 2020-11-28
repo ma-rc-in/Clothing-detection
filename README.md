@@ -1,6 +1,6 @@
 # About the project
 
-This project was created as part of a college assignment. 
+The project provides a clothing detection model written in Python using TensorFlow and Matplotlib libraries. The model also uses Keras dataset, which provides tens of thousands images used as samples to train the model. 
 
 ## Getting Started
 
