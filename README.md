@@ -29,7 +29,7 @@ In order to use this model, you need to install the following:
 2. Clone the repo.
 
 ```
-git clone https://github.com/marcin9898/Clothing-detection.git
+git clone https://github.com/ma-rc-in/Clothing-detection.git
 ```
 
 3. Install TensorFlow library.
